@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="d-flex">
+        <h1>Welcome</h1>
+        <div class="d-flex ml-auto">
+          <a class="item" href="#">Home</a>
+          <a class="item" href="#">Product</a>
+          <a class="item" href="#">Service</a>
+          <a class="item" href="#">Contect us</a>
+        </div>
+      </header>
+
+      <div>
+        <!-- <img class="img" src="./img/hill2.jpeg" alt="" /> -->
+      </div>
+
+      <button type="button" class="overlay wh-100">Login</button>
+    </div>
+    <form class="text-center hidden form-h">
+      <h1>Login</h1>
+      <div class="xyz">
+        <label for="name">Enter your Username</label>
+        <input type="text" class="nu" id="name" />
+      </div>
+      <div class="xyz">
+        <label for="password">Enter Password</label>
+        <input type="text" class="num" id="pass" />
+      </div>
+      <div class="xyz">
+        <label for="password">Confirm Password</label>
+        <input type="text" class="numm" id="password" />
+      </div>
+      <button type="submit" class="sub" onclick="fn1()">submit</button>
+    </form>
+    <p class="show hidden"></p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"
+      integrity="sha512-QAc08ipPd7ElgrEsKMj9mFi1LOYhEBBeusKfVSXktZSjlm5BIThey5q7IEYtZVixxC+lIN6CnSZCfI4s00Dq3w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
